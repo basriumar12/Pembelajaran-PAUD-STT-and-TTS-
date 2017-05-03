@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_input_rounded_primary">
+        <ImageView
+            android:id="@+id/imgWord"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/number_1"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_audio"
+            android:layout_margin="2dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
